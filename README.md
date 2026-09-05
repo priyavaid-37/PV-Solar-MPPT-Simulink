@@ -56,3 +56,9 @@ The overall PV system is modeled in MATLAB/Simulink, including the PV array, P&O
 - Power Electronics
 - MPPT Control
 - DC-DC Boost Converter
+## How to Run
+
+1. Open `MatlabfilePvsolar.slx` in MATLAB/Simulink.
+2. Ensure Simulink and the required Simscape/Simscape Electrical libraries are available.
+3. Run the simulation.
+4. Observe the PV power, PV voltage, and MPPT duty-cycle responses using the Scope blocks.
