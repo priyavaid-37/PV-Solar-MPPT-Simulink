@@ -42,7 +42,12 @@ The overall PV system is modeled in MATLAB/Simulink, including the PV array, P&O
 ### MPPT Duty Cycle
 
 ![MPPT Duty Cycle](mppt_duty_cycle.png)
+## Key Simulation Results
 
+- PV output power settles at approximately 120 W under the simulated conditions.
+- PV voltage stabilizes at approximately 118–120 V.
+- The P&O MPPT controller adjusts the duty cycle from an initial value of approximately 0.15 and settles around 0.48.
+- The simulation demonstrates stable operation of the PV system with closed-loop MPPT control.
 ## Tools Used
 
 - MATLAB
