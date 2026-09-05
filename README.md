@@ -24,7 +24,11 @@ A Perturb and Observe (P&O) algorithm is implemented to adjust the converter dut
 The system is modeled and simulated in MATLAB/Simulink under different irradiance and temperature conditions.
 
 The P&O MPPT controller continuously adjusts the converter duty cycle based on changes in PV voltage and power.
+## System Model
 
+The overall PV system is modeled in MATLAB/Simulink, including the PV array, P&O MPPT controller, PWM generator, and DC-DC boost converter.
+
+![PV Solar Simulink Model](simulink_model.png)
 ## Simulation Results
 
 ### PV Power Response
